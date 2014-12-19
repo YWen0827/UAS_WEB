@@ -1,59 +1,67 @@
-body{
-	background-color:black;
-}
-
-div{
+#bigDiv{
 	width:900px;
 	margin:auto;
 }
-
-h1 {
-	color:white;
-}
-
-#btmMid{
-	background:blue;
-}
-
-#menu{
-	background:red;
-}
-
-.service{
-	width:100px;
-	height:100px;
-}
-
-#about{
-	background:blue;
-}
-
-#service{
-	background:#00BFFF;
-}
+#logo{
+	text-align:center;
+}	
 
 ul li{
 	display:inline-block;
-	padding:10px;
+	padding:30px;
+	position:relative;
 }
 ul li a{
 	text-decoration:none;
-	color:white;
+	color:black;
+}
+
+ul ul{
+	display:none;
+}
+ul li:hover>ul{
+	display:block;
+}
+ul li ul{
+	position:absolute;
+}
+ul li ul li{
+	margin-left:-50px;
+	background:white;
+	width:100px;
+	height:10px;
+}
+ul li ul li:hover{
+	background:#DC143C;
+}
+
+#serviceBanner{
+	height:30px;
+	background:#F0F8FF;
+}
+
+#service ul li{
+	margin-left:-50px;
+	background:white;
+	width:250px;
+}
+#service ul li:hover{
+	background:#DC143C;
 }
 
 //link
-a:link {
-    color: #FF0000;
+#menu a:link {
+    color: black;
 }
 
-a:visited {
-    color: white;
+#menu a:visited {
+    color: black;
 }
 
-a:hover {
-    color: #FF00FF;
+#menu a:hover {
+    color: red;
 }
 
-a:active {
-    color: blue;
+#menu a:active {
+    color: black;
 }
