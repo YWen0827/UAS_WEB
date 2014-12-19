@@ -1,67 +1,59 @@
-#bigDiv{
+body{
+	background-color:black;
+}
+
+div{
 	width:900px;
 	margin:auto;
 }
-#logo{
-	text-align:center;
-}	
+
+h1 {
+	color:white;
+}
+
+#btmMid{
+	background:blue;
+}
+
+#menu{
+	background:red;
+}
+
+.service{
+	width:100px;
+	height:100px;
+}
+
+#about{
+	background:blue;
+}
+
+#service{
+	background:#00BFFF;
+}
 
 ul li{
 	display:inline-block;
-	padding:30px;
-	position:relative;
+	padding:10px;
 }
 ul li a{
 	text-decoration:none;
-	color:black;
-}
-
-ul ul{
-	display:none;
-}
-ul li:hover>ul{
-	display:block;
-}
-ul li ul{
-	position:absolute;
-}
-ul li ul li{
-	margin-left:-50px;
-	background:white;
-	width:100px;
-	height:10px;
-}
-ul li ul li:hover{
-	background:#DC143C;
-}
-
-#serviceBanner{
-	height:30px;
-	background:#F0F8FF;
-}
-
-#service ul li{
-	margin-left:-50px;
-	background:white;
-	width:250px;
-}
-#service ul li:hover{
-	background:#DC143C;
+	color:white;
 }
 
 //link
-#menu a:link {
-    color: black;
+a:link {
+    color: #FF0000;
 }
 
-#menu a:visited {
-    color: black;
+a:visited {
+    color: white;
 }
 
-#menu a:hover {
-    color: red;
+a:hover {
+    color: #FF00FF;
 }
 
-#menu a:active {
-    color: black;
+a:active {
+    color: blue;
 }
